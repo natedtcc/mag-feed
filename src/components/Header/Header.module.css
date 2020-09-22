@@ -1,0 +1,33 @@
+.Header {
+    height: 50px;
+    width: 100%;
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Header p {
+    background-color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+@keyframes glowup {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: .25;
+    }
+    50% {
+        opacity: .5;
+    }
+    75% {
+        opacity: .75;
+    }
+    100% {
+        opacity: .999;
+    }
+}

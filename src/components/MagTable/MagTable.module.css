@@ -1,0 +1,27 @@
+.MagTable table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 375px;
+    font-family: 'Mukta Malar', sans-serif;
+    table-layout: inherit;
+}
+
+.MagTable table, tr, th, td, tbody, thead {
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: white;
+}
+
+.MagTable th {
+    font-weight: bold;
+    color: white;
+}
+
+.MagTable td {
+    color: blanchedalmond;
+}
+
+.Label {
+    color: white;
+}
