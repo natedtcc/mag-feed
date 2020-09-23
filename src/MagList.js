@@ -91,9 +91,9 @@ const MagList = {
     },
   },
 
-  evo2: {
+  evo1: {
     names: ["Varuna", "Vrita", "Kalki"],
-    level: 0,
+    level: 10,
     monomate: {
       sync: 0,
       iq: 0,
@@ -183,6 +183,100 @@ const MagList = {
       mind: 25,
     },
   },
+
+  evo2_0: {
+    names: ["Ashvinau", "Sumba", "Namuci", "Marutah", "Rudra"],
+    level: 35,
+    monomate: {
+      sync: 0,
+      iq: -1,
+      def: 1,
+      pow: 9,
+      dex: 0,
+      mind: -5,
+    },
+    dimate: {
+      sync: 3,
+      iq: 0,
+      def: 1,
+      pow: 13,
+      dex: 0,
+      mind: -10,
+    },
+    trimate: {
+      sync: 4,
+      iq: 1,
+      def: 8,
+      pow: 16,
+      dex: 2,
+      mind: -15,
+    },
+    monofluid: {
+      sync: 0,
+      iq: -1,
+      def: 0,
+      pow: -5,
+      dex: 0,
+      mind: 9,
+    },
+    difluid: {
+      sync: 3,
+      iq: 0,
+      def: 4,
+      pow: -10,
+      dex: 0,
+      mind: 13,
+    },
+    trifluid: {
+      sync: 3,
+      iq: 2,
+      def: 6,
+      pow: -15,
+      dex: 5,
+      mind: 17,
+    },
+    antidote: {
+      sync: -1,
+      iq: 1,
+      def: -5,
+      pow: 4,
+      dex: 12,
+      mind: -5,
+    },
+    antiparalysis: {
+      sync: 0,
+      iq: 0,
+      def: -5,
+      pow: -6,
+      dex: 11,
+      mind: 4,
+    },
+    sol: {
+      sync: 4,
+      iq: -2,
+      def: 0,
+      pow: 11,
+      dex: 3,
+      mind: -5,
+    },
+    moon: {
+      sync: -1,
+      iq: 1,
+      def: 4,
+      pow: -5,
+      dex: 0,
+      mind: 11,
+    },
+    star: {
+      sync: 4,
+      iq: 2,
+      def: 7,
+      pow: 8,
+      dex: 6,
+      mind: 9,
+    },
+  },
+
 };
 
 export default MagList;
