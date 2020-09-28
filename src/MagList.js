@@ -1,6 +1,50 @@
+// TODO: Finish adding obj vars to facilitate SID / Class
+// TODO: Add specific levels for evolutions
+// TODO: Implement logic for discerning evolutions based on stats
+
 const MagList = {
   mag: {
-    names: ["Mag", "Baby", "Mag"],
+    id: {
+      hunter: {
+        bluefull: "Mag",
+        greenil: "Mag",
+        oran: "Mag",
+        pinkal: "Mag",
+        purplenum: "Mag",
+        redria: "Mag",
+        skyly: "Mag",
+        viridia: "Mag",
+        yellowboze: "Mag",
+        whitill: "Mag"
+      },
+
+      ranger: {
+        bluefull: "Mag",
+        greenil: "Mag",
+        oran: "Mag",
+        pinkal: "Mag",
+        purplenum: "Mag",
+        redria: "Mag",
+        skyly: "Mag",
+        viridia: "Mag",
+        yellowboze: "Mag",
+        whitill: "Mag"
+      },
+
+      force: {
+        bluefull: "Mag",
+        greenil: "Mag",
+        oran: "Mag",
+        pinkal: "Mag",
+        purplenum: "Mag",
+        redria: "Mag",
+        skyly: "Mag",
+        viridia: "Mag",
+        yellowboze: "Mag",
+        whitill: "Mag"
+      }
+    },
+  
     monomate: {
       sync: 3,
       iq: 3,
@@ -92,7 +136,46 @@ const MagList = {
   },
 
   evo1: {
-    names: ["Varuna", "Vrita", "Kalki"],
+    id: {
+      hunter: {
+        bluefull: "Varuna",
+        greenil: "Varuna",
+        oran: "Varuna",
+        pinkal: "Varuna",
+        purplenum: "Varuna",
+        redria: "Varuna",
+        skyly: "Varuna",
+        viridia: "Varuna",
+        yellowboze: "Varuna",
+        whitill: "Varuna"
+      },
+
+      ranger: {
+        bluefull: "Kalki",
+        greenil: "Kalki",
+        oran: "Kalki",
+        pinkal: "Kalki",
+        purplenum: "Kalki",
+        redria: "Kalki",
+        skyly: "Kalki",
+        viridia: "Kalki",
+        yellowboze: "Kalki",
+        whitill: "Kalki"
+      },
+
+      force: {
+        bluefull: "Vritra",
+        greenil: "Vritra",
+        oran: "Vritra",
+        pinkal: "Vritra",
+        purplenum: "Vritra",
+        redria: "Vritra",
+        skyly: "Vritra",
+        viridia: "Vritra",
+        yellowboze: "Vritra",
+        whitill: "Vritra"
+      }
+    },
     level: 10,
     monomate: {
       sync: 0,
