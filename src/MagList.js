@@ -44,7 +44,7 @@ const MagList = {
         whitill: "Mag"
       }
     },
-  
+
     monomate: {
       sync: 3,
       iq: 3,

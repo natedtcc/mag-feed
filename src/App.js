@@ -6,6 +6,8 @@ import MagInfo from "./components/MagInfo/MagInfo";
 import MagList from "./MagList";
 import Mag from "./assets/Mag";
 
+// Some test stuff
+
 const mag = new Mag(MagList.mag);
 mag.magFeed("dimate");
 mag.magFeed("monomate");
@@ -19,7 +21,7 @@ mag.magFeed("trifluid");
 mag.magFeed("dimate");
 mag.magFeed("monomate");
 mag.magFeed("dimate");
-const mags = MagList.evo2;
+const mags = MagList.evo2_0;
 
 function App() {
   return (
